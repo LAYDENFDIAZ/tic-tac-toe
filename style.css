@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+#gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  color: black;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 25%;
+  height: 30%;
+  text-align: center;
+  font-size: 80px;
+}
+
+#controls {
+  margin: auto;
+}
